@@ -1,0 +1,263 @@
+ul {
+   color: red;
+}
+li {
+   ;
+}/*************************************
+GENERAL
+*************************************/
+
+body {
+	font-family: 'open Sans', sans-serif; 
+}
+
+#wrapper {
+	max-width: 946px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+
+/*************************************
+HEADING
+*************************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'change one', sans-serif;
+	margin: 3px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+/*************************************
+NAVIGATION
+*************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+}
+
+nav a {
+	font-weight: 500;
+	padding: 2px 5px;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+nav ul li ul li {
+	display: none;
+	opacity: .8;
+}
+
+nav ul li:hover ul li {
+	display: block;
+} 
+
+
+ 
+/*************************************
+FOOTER
+*************************************/  
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+
+
+/*************************************
+PAGE GALLERY
+*************************************/
+
+.maincontent {
+	line-height: 15px;
+}
+
+.content {
+	width: 100%;
+}
+
+.topcontent {
+	padding: 3% 5%;
+	margin-top: 0; 
+}
+
+.bottomcontent {
+	padding: 3% 5%;
+	margin-top: 2px; 
+}
+
+
+
+/*************************************
+PAGE GALLERY
+*************************************/
+
+#gallery {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+
+
+/*************************************
+PAGE ABOUT
+*************************************/
+
+.logo-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
+
+
+/*************************************
+PAGE CONTACT
+*************************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('images/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('images/email.png');
+}
+
+
+
+/*************************************
+PAGE VIDEO
+*************************************/
+
+.video {
+	width: 200px;
+}
+
+/*************************************
+COLORS 
+*************************************/
+
+/******** site body ********/
+body {
+	background-color: #ffffff;
+	color: #999;
+}
+
+/******** blue header ********/
+header {
+	background: #0066CC;
+	border-color: #0066CC;
+}
+
+
+nav ul li a:hover {
+	color: #0066CC;
+}
+
+/******** nav background on mobile ********/
+nav {
+	background: #0033FF;
+}
+
+/******** logo text ********/
+h1, h2 {
+	color: #ffffff;
+}
+
+/******** links ********/
+a {
+	color: #0066CC;
+}
+
+/******** nav link ********/
+nav a, nav a:visited {
+	color: #ffffff;
+}
+
+/******** selected nav link ********/
+nav a.selected, nav a:hover {
+	color: gray;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>
+		Jetex | Log In
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<style type="text/css">
+		* {
+			-ms-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+
+		body {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 200;
+		}
+
+		.login {
+			position: relative;
+			top: 50%;
+			width: 250px;
+			display: table;
+			margin: 150px auto 0 auto;
+			background: #fff;
+			border-radius: 4px; 
+		}
+
+		.legend {
+			position: relative;
+			width: 100%;
+			display: block;
+			background: #0066cc;
+			padding: 15px;
+			color: #fff;
+			font-size: 20px; 
+		}
+
+		.input {
+			position: relative;
+			width: 90%;
+			margin: 15px auto;
+		}
+
+		.input input {
+			width: 100%;
+			padding: 10px, 5px, 10px, 40px;
+			display: block;
+			border: 1px solid #0099CC;
+			border-radius: 4px;
+			transition: 0.2s ease-out;
+			color: #0066cc;
+		}
+
+		.input input:focus {
+			padding: 10px 5px 10px 10px;
+			outline: 0;
+			border-color: #0066cc;
+		}
+
+		.submit {
+			width: 70px;
+			height: 25px;
+			display: block;
+			margin: 0 auto 15px auto;
+			background: #fff;
+			border-radius: 4px;
+			border: 1px solid #0066cc;
+			color: #0066cc;
+			font-size: 15px;
+			cursor: pointer;
+			box-shadow: 0px 0px 0px 7px #fff;
+			transition: 0.2s ease-out;
+		}
+
+		.submit:hover, .submit:focus {
+			background: #0066cc;
+			color: #fff;
+			outline: 0;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<a href="index.html" id="logo">
+			<h1>Jetex</h1>
+			<h2>Designer</h2>
+		</a>
+		<nav class="top">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="signin.html">Sign In</a></li>
+				<li><a href="login.html" class="selected">Log In</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<section>
+				<form class="login" action="home.html">
+		<fieldset>
+			<legend class="legend">Log In</legend>
+			<div class="input">
+				<input type="email" id="email" placeholder="someone@example.com" reguired>
+			</div>
+			<div class="input">
+				<input type="password" id="password" placeholder="Password" reguired>
+			</div>
+			<input type="submit" class="submit" value="LOGIN">
+		</fieldset>
+	</form>
+		</section>
+		<footer>
+			<p>&copy; 2017 Jetex.</p>
+			<nav class="buttom">
+				<ul>
+					<li><a href="contact1.html">Contact Us</a></li>
+					<li><a href="about1.html">About Us</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+	<!--<script>
+		function getInfo() {
+			var email = document.getElementById("email").value
+			var password = document.getElementById("password").value
+		
+			//console.log(" Your email is " + email + " and your password is " + password)
+
+			for(i = 0; i < objPeople.length; i++) {
+				if(email == objPeople[i].email && password == objPeople[i].password) {
+					console.log(email + " is logged in!!!")
+				}
+			}
+	};
+	</script>
+	<script src = "js/script.js"></script>-->
+</body>
+</html>

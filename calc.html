@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>
+		Jetex | Services | Calculator
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript">
+		
+		function dis(x) {
+			frm.txt.value=frm.txt.value+x;
+		}
+
+	</script>
+	<style>
+
+	#textbox {
+		text-align: right;
+	}
+
+	.btn {
+		width: 30px;
+		height: 40px;
+		padding: 2px;
+		margin: 2px;
+	}
+
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<a href="index.html" id="logo">
+			<h1>Jetex</h1>
+			<h2>Designer</h2>
+		</a>
+		<nav class="top">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="#">Gallery</a>
+					<ul>
+						<li><a href="food.html">Balance Diet</a></li>
+						<li><a href="phone.html">phones</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Videos</a>
+					<ul>
+						<li><a href="vid.html">Webpage</a></li>
+						<li><a href="vid1.html">Music Videos</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="selected">Services</a>
+					<ul>
+						<li><a href="calc.html">Calculator</a></li>
+					</ul>
+				</li>
+				<li><a href="index.html">Sign out</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<section>
+			<center>
+				<form name="frm">
+					<input id="textbox" type="textbox" name="txt"><br>
+					<input type="button" class="btn" name="btn9" value="9" onclick="dis(btn9.value)">
+					<input type="button" class="btn" name="btn8" value="8" onclick="dis(btn8.value)">
+					<input type="button" class="btn" name="btn7" value="7" onclick="dis(btn7.value)">
+					<input type="button" class="btn" name="btnd" value="/" onclick="dis(btnd.value)"><br>
+					<input type="button" class="btn" name="btn6" value="6" onclick="dis(btn6.value)">
+					<input type="button" class="btn" name="btn5" value="5" onclick="dis(btn5.value)">
+					<input type="button" class="btn" name="btn4" value="4" onclick="dis(btn4.value)">
+					<input type="button" class="btn" name="btnm" value="*" onclick="dis(btnm.value)"><br>
+					<input type="button" class="btn" name="btn3" value="3" onclick="dis(btn3.value)">
+					<input type="button" class="btn" name="btn2" value="2" onclick="dis(btn2.value)">
+					<input type="button" class="btn" name="btn1" value="1" onclick="dis(btn1.value)">
+					<input type="button" class="btn" name="btns" value="-" onclick="dis(btns.value)"><br>
+					<input type="button" class="btn" name="btndot" value="." onclick="dis(btndot.value)">
+					<input type="button" class="btn" name="btn0" value="0" onclick="dis(btn0.value)">
+					<input type="button" class="btn" name="btneq" value="=" onclick="txt.value=eval(txt.value)">
+					<input type="button" class="btn" name="btnp" value="+" onclick="dis(btnp.value)">
+				</form>
+			</center>
+		</section>
+		<footer>
+			<p>&copy; 2017 Jetex.</p>
+			<nav class="buttom">
+				<ul>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+</body>
+</html>
